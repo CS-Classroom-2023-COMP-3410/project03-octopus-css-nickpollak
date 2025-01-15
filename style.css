@@ -1,0 +1,66 @@
+#header{ /* this is how I made the gradient box and changed the different text color*/
+    background: linear-gradient(to right, #00008B, #ADD8E6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+#species-table{ /* I'm not sure this did what I intended*/
+    border-collapse: collapse;
+    border-color: 2px black;
+}
+#main-content{ /* mostly adjusting margin so the light blue is visible on the sides*/
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+#quiz-section{ /* this gave me trouble, but mainly moving the different pieces around in a box*/
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer{ /* relatively simple just making a box*/
+    background: darkblue;
+    border-radius: 10px;
+    height: 50%;
+}
+#footer p { /* making the paragraph that goes in the box*/
+    color:white;
+    font-size: .8em;
+    margin: 8px;
+    line-height: 1.5;
+}
+a{  /* color changing for the next few lines*/
+    color:deepskyblue;
+}
+label{
+    color:darkblue
+}
+th{
+    background-color:gray;
+    color:white;
+}
+ul li{ /* this didn't work to change the dots*/
+    list-style-type: decimal;
+    color: darkblue; /* Change the dot color without adding new content */
+}
+li{
+    color:darkblue;
+    padding: 5px;
+    text-align: left;
+}/*  more color changing*/
+p{color:darkblue;}
+h2{color: darkturquoise;}
+h3{color: darkturquoise;}
+h4{color: darkturquoise;}
+h5{color: darkturquoise;}
+h6{color: darkturquoise;}
